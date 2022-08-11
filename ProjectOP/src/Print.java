@@ -1,15 +1,20 @@
 
 class Print {
 	
-	public static String delimiter = "";
+	public String delimiter = "";
 
-	public static void A() {
+	public Print(String delimiter) {
+		this.delimiter = delimiter;
+		
+	}
+
+	public void A() {
 		System.out.println(delimiter);
 		System.out.println("1억줄짜리 코드");
 		System.out.println("1억줄짜리 코드");
 	}
 
-	public static void B() {
+	public void B() {
 		System.out.println(delimiter);
 		System.out.println("1억줄짜리 코드");
 		System.out.println("1억줄짜리 코드");
