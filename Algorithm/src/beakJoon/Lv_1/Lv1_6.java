@@ -1,7 +1,7 @@
 package beakJoon.Lv_1;
 import java.util.Scanner;
 
-//첫째 줄에 A×B를 출력한다
+//첫째 줄에 A/B를 출력한다
 
 public class Lv1_6 {
 
