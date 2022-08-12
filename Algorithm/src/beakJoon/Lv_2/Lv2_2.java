@@ -7,7 +7,10 @@ package beakJoon.Lv_2;
 public class Lv2_2 {
 
 	public static void main(String[] args) {
-		System.out.println("commit test");
+		System.out.println("commit test ");
+		System.out.println("Team > Git > Configuration -> Add Entry");
+		System.out.println("user.email / user.name");
+		
 		
 		
 		
