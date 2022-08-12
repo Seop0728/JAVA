@@ -7,6 +7,7 @@ package beakJoon.Lv_2;
 public class Lv2_2 {
 
 	public static void main(String[] args) {
+		System.out.println("commit test");
 		
 		
 		
