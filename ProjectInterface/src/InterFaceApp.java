@@ -7,10 +7,18 @@ interface calculable {
 //	}
 //}
 
-class Realcal implements calculable{
+interface Printable{
+	void print();
+}
+
+class Realcal implements calculable, Printable{
 
 	public int sum(int v1, int v2) {
 		return v1+v2;
+	}
+
+	public void print() {
+		System.out.println("This is Realcal !!");
 	}
 	
 }
@@ -28,6 +36,8 @@ public class InterFaceApp {
 
 		Realcal c = new Realcal();
 		System.out.println(c.sum(2, 1));
+		c.print();
+		
 
 	}
 
