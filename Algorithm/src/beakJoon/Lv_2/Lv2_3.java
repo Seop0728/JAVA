@@ -9,19 +9,22 @@ public class Lv2_3 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
+
 		int y = sc.nextInt();
-		//int y = 1200;		[ % = 나눈 나머지를 저장]
+		// int y = 1200; [ % = 나눈 나머지를 저장]
 		sc.close();
-		
-		//System.out.print((y%4==0)?((y%400==0)?"1":(y%100==0)?"0":"1"):"0");
-		
-		if(y % 4 == 0 ) {
-			if(y % 400 == 0) System.out.println("1");
-			else if(y % 100 == 0) System.out.println("0");
-			else System.out.println("1");
-		}
-		else System.out.println("0");
+
+		// System.out.print((y%4==0)?((y%400==0)?"1":(y%100==0)?"0":"1"):"0");
+
+		if (y % 4 == 0) {
+			if (y % 400 == 0)
+				System.out.println("1");
+			else if (y % 100 == 0)
+				System.out.println("0");
+			else
+				System.out.println("1");
+		} else
+			System.out.println("0");
 	}
 
 }
