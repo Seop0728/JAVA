@@ -27,6 +27,4 @@ public class Lv3_4 {
 
 	    }
 	}
-	}
 
-}
